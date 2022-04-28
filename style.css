@@ -6,11 +6,11 @@
 	box-sizing: border-box;
 }
 
-html {
+/* html {
 	font-family: "Open Sans", sans-serif;
 	font-variant: 400;
 	font-feature-settings: 14px;
-	scroll-behavior: smooth;
+	scroll-behavior: smooth; */
 	/* color: ; */
 	/* background-color: ; */
 }
