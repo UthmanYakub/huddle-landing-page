@@ -1,0 +1,59 @@
+@media screen and (min-width: 320px) {
+	.header--section {
+		background-color: hsl(193, 100%, 96%);
+	}
+	.header--section--nav {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 30px 20px 100px;
+	}
+
+	.nav--logo img {
+		width: 110px;
+		height: auto;
+	}
+
+	.nav--link {
+		padding: 6px 16px;
+		background-color: hsl(0, 0%, 100%);
+		color: hsl(192, 100%, 9%);
+		font-family: "Open Sans", sans-serif;
+		font-size: 11px;
+		font-weight: 600;
+		text-decoration: none;
+		border-radius: 20px;
+		box-shadow: 1px 1px 10px -5px hsl(0, 0%, 0%);
+	}
+
+	.header--hero--section {
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.hero--text {
+		width: 85%;
+		margin: 0 auto;
+		color: hsl(192, 100%, 9%);
+	}
+
+	.hero--text h1 {
+		font-size: 24px;
+		margin: 0 15px;
+	}
+
+	.hero--text p {
+		font-size: 14px;
+		margin: 0 10px;
+	}
+
+	.hero--img {
+		width: 80%;
+	}
+
+	.hero--img img {
+		width: 100%;
+	}
+}
