@@ -1,0 +1,47 @@
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-family: "Open Sans", sans-serif;
+	font-variant: 400;
+	font-feature-settings: 14px;
+	scroll-behavior: smooth;
+	/* color: ; */
+	/* background-color: ; */
+}
+
+/* Reuseable */
+
+.flex {
+	display: flex;
+}
+
+.grid {
+	display: grid;
+}
+
+.col-2 {
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.col-3 {
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.fl-d-c {
+	flex-direction: column;
+}
+
+/* Header Section */
+
+.header--section {
+	justify-content: space-between;
+	background-color: hsl(193, 100%, 96%);
+	padding: 50px;
+	padding: 45px 80px;
+}
