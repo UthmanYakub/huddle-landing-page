@@ -77,6 +77,11 @@
 		width: 100%;
 	}
 
+	main {
+		position: relative;
+		padding-bottom: 170px;
+	}
+
 	.section--cards {
 		text-align: center;
 		padding: 90px 0 20px;
@@ -126,5 +131,111 @@
 		padding: 0 10px 30px;
 		font-weight: 400;
 		line-height: 20px;
+	}
+
+	.community--section {
+		position: absolute;
+		background-color: hsl(193, 100%, 96%);
+		border-radius: 12px;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		padding: 40px 5px;
+		margin: 0 auto;
+		left: 50%;
+		transform: translateX(-50%);
+		bottom: -60px;
+		width: 90%;
+		text-align: center;
+		/* max-width: 80vw; */
+	}
+
+	.community--section h2 {
+		font-size: 14px;
+		font-weight: 700;
+		margin-bottom: 20px;
+	}
+	.community--section a {
+		font-size: 11px;
+		font-weight: 400;
+		padding: 10px 45px;
+		background-color: hsla(322, 100%, 66%);
+		color: hsl(0, 0%, 100%);
+		text-decoration: none;
+		border-radius: 50px;
+		box-shadow: 1px 1px 10px -5px hsl(0, 0%, 0%);
+	}
+
+	.footer--section {
+		background-color: hsl(192, 100%, 9%);
+		padding: 140px 20px 42px 20px;
+	}
+
+	#footerlogo {
+		fill: green;
+	}
+
+	.footer--grid {
+		display: grid;
+		grid-template-columns: 1fr;
+		/* gap: 2rem; */
+		margin-top: 30px;
+		font-size: 14px;
+		color: hsl(0, 0%, 100%);
+	}
+
+	.footer--location {
+		grid-template-columns: 5% 95%;
+	}
+
+	.footer--location span,
+	.footer--contact span {
+		padding-left: 20px;
+	}
+
+	.footer--contact div {
+		margin-top: 2rem;
+		margin-bottom: 26px;
+	}
+
+	.footer--links--1 {
+		margin-top: 2.5rem;
+	}
+
+	.footer--links--1,
+	.footer--links--2 {
+		/* margin-bottom: 2rem; */
+		display: grid;
+		grid-template-columns: 1fr;
+	}
+
+	.footer--links--1 a,
+	.footer--links--2 a {
+		margin-bottom: 20px;
+	}
+
+	.footer--links--1 a,
+	.footer--links--2 a {
+		text-decoration: none;
+		color: hsl(0, 0%, 100%);
+	}
+
+	.footer--icon {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 15px;
+	}
+
+	.footer--icon i {
+		font-size: 12px;
+		border: 1px solid hsl(0, 0%, 100%);
+		border-radius: 100px;
+		padding: 5px;
+		margin: 10px;
+	}
+
+	.footer--icon i:last-child {
+		margin-right: 0;
 	}
 }
