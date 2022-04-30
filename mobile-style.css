@@ -171,8 +171,8 @@
 		padding: 140px 20px 42px 20px;
 	}
 
-	#footerlogo {
-		fill: green;
+	.logof {
+		width: 50%;
 	}
 
 	.footer--grid {
